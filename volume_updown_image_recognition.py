@@ -20,7 +20,7 @@ def volumne_updown():
             x = py.locateCenterOnScreen(pic,confidence=0.8,grayscale=True)
         return(x)
     
-    p = loc(r'\\bet-c-00046\C$\Users\BUB1BET\OneDrive - Bosch Group\Projects\Python Scripts\images\bosch_yellow.png') # Needs to be the link to the image you are trying to recognize
+    p = loc(r'\\images\bosch_yellow.png') # Needs to be the link to the image you are trying to recognize
     pause.seconds(1)
     py.click(p)
     pause.seconds(1)
